@@ -11,8 +11,8 @@ class Config:
         self.BOT_TOKEN = getenv("BOT_TOKEN")
         self.MONGO_URL = "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
 
-        self.LOGGER_ID = -1003371656233
-        self.OWNER_ID = 8296101543
+        self.LOGGER_ID = -1003107817392
+        self.OWNER_ID = 7284147034
 
         self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 600000000)) * 600000000
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 20000000))
@@ -22,8 +22,8 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = "https://t.me/TechBotss"
-        self.SUPPORT_CHAT = "https://t.me/SxNoii"
+        self.SUPPORT_CHANNEL = "https://t.me/khargyushh"
+        self.SUPPORT_CHAT = "https://t.me/khargyushh"
 
         self.AUTO_END: bool = getenv("AUTO_END", True)
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", False)
