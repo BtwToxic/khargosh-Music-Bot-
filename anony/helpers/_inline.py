@@ -151,7 +151,7 @@ class Inline:
                 [
                     self.ikb(
                         text=lang["love"],
-                        url="https://t.me/do_pal0",
+                        url="https://t.me/lifeunfilter",
                     )
                 ]
             ]
